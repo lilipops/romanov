@@ -1,6 +1,60 @@
 
 body {
     margin: 0;
+
+}
+p {
+  font-size: huge;
+}
+
+
+.body {
+  /* width: 100%; */
+  width: 1500px;
+  margin: 0 auto;
+}
+.container  {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  
+}
+.navbox {
+  display: flex;
+ justify-content: space-between;
+ list-style-type: none;
+ padding-top: 42px;
+ 
+}
+img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.block {
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.galery {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #97d848;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 5px;
+
 }
 .content {
     display: flex;
@@ -25,11 +79,7 @@ a:hover {
     
 }
 
-.text {
-    flex-grow: 1;
-    flex-basis: 350px;
-    border: 1px solid #000;
-}
+
 .names {
     width: 100%; 
     justify-content: space-around;
@@ -42,21 +92,13 @@ a:hover {
 }
 
 
-.container  {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    
+
+
+.mydog {
+  width: 500px;
+  height: 500px;
 }
-.block {
-    width: 500px;
-    height: 500px;
-    /* border: 1px solid #000; */
-    
-}
-.block-1 {
-    background: chartreuse;
-}
+
 .block-2 {
     background: cornflowerblue;
 }
@@ -71,14 +113,11 @@ a:hover {
     
     bottom: 0;
     
-    background: cadetblue;
+    /* background: cadetblue; */
     /* display: flex;
     justify-content: center; */
 }
-.body {
-    width: 1140px;
-    margin: 0 auto;
-}
+
 
 
 .footer__bottom {
@@ -219,5 +258,17 @@ p{
 .formulario textarea:focus{
   outline:0;
   border: 1px solid #97d848;
+}
+
+/* .block {
+  max-width: 600px;
+  max-height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+} */
+img {
+  width: 200px;
+  width: 200px;
 }
 
